@@ -24,4 +24,5 @@ class Main(base):
         return self.a
 
 
-Main(a = 5).get_base_data()
+obj = Main(a = 5).get_base_data()
+print(obj)
